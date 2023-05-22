@@ -1,0 +1,1 @@
+export const FABLE_TOKEN_DENOM = 'factory/sei1rrhh4syyqsl4gtml0t55mcmt34x98gne23fgk3hsas0pjfw2mhyqhz5rxq/FABLE';

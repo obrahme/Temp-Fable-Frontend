@@ -1,0 +1,3 @@
+export const LEADERBOARD_CONTRACT_ADDRESS = 'sei13w0xghslf6vvzjpsamfzp57ckwjm695edtpnyv7wy0gvwfswarkq4qv9ms';
+export const STAKING_VOTING_CONTRACT_ADDRESS = 'sei1a4l7gps9tpn4pk2dahtda9ntlwuvkxfxxnk2653fr455r6y3mdgqxr4vuh';
+export const DAO_CORE_CONTRACT_ADDRESS = 'sei10ptghqesxycs2x0enhu4p0vyjxhs76ze4ey29lv0507uzl6tg45sdmd0tk';

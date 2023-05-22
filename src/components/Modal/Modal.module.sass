@@ -1,0 +1,59 @@
+@keyframes fadeIn
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.modalBackground
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  backdrop-filter: blur(3px)
+  background-color: #f1f1f133
+  z-index: 2
+  padding: 24px
+  animation: fadeIn 75ms linear
+
+  @media (max-width: 600px)
+    padding: 0
+
+.modalCard
+  flex-direction: column
+  background-color: #121212
+  border-radius: 12px
+  z-index: 10
+  padding: 24px
+  max-height: 100%
+  width: 100%
+  max-width: 480px
+  box-shadow: rgba(14, 15, 16, 0.1) 3px 9px 24px
+  overflow-x: hidden
+  gap: 24px
+  animation: fadeIn 150ms linear
+
+  @media (max-width: 600px)
+    padding: 18px
+    border-radius: 0
+    overflow-y: auto
+    height: 100%
+    gap: 18px
+
+.header
+  flex-direction: row
+  align-items: center
+  gap: 24px
+
+.title
+  font-size: 1.5rem
+  font-weight: 800
+  color: #ffffff
+
+.modalClose
+  font-size: 36px
+  cursor: pointer
+  color: #ffffff

@@ -1,0 +1,90 @@
+:root {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "JetBrains Mono", monospace;
+  color-scheme: light dark;
+
+  color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+#root, body, html {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  overflow-y: auto;
+  background-color: #121212;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+a {
+  color: #D1EE53;
+  text-decoration: none;
+}
+
+button {
+  border: #D1EE53 solid 3px;
+  height: 48px;
+  border-radius: 6px;
+  background: #121212;
+  color: #D1EE53;
+  font-size: 1.25rem;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 0 12px;
+  transition: 150ms all ease-out;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: #D1EE53;
+  color: #121212;
+}
+
+button:active {
+  background-color: #D1EE5388;
+  border-color: transparent;
+  color: #121212;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.Toastify__toast {
+  flex-direction: row;
+}
+
+.Toastify__toast-body {
+  flex-direction: row;
+}
+
+.Toastify__close-button {
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
